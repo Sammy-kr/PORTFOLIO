@@ -4,7 +4,7 @@ interface LitUpBordersProps {
   title?: string;
 }
 
-const LitUpBorders = ({ title = "Show my work" }: LitUpBordersProps) => {
+const LitUpBorders = ({ title = "See my work" }: LitUpBordersProps) => {
   return (
     <button className="p-[3px] relative">
       <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
